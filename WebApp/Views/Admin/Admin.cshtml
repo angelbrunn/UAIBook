@@ -1,0 +1,36 @@
+﻿@model IEnumerable<WebApp.Models.Libro>
+@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+<div id="contenedor">
+    administrador ABM libros
+    @Html.ActionLink("Crear", "Create")
+    <table class="table">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Id)</th>
+            <th>@Html.DisplayNameFor(model => model.ISBN)</th>
+            <th>@Html.DisplayNameFor(model => model.Titulo)</th>
+            <th>@Html.DisplayNameFor(model => model.GeneroId)</th>
+            <th>@Html.DisplayNameFor(model => model.AutorId)</th>
+            <th>@Html.DisplayNameFor(model => model.EditorialId)</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                <td>@Html.DisplayFor(modelItem => item.ISBN)</td>
+                <td>@Html.DisplayFor(imodelItem => item.Titulo)</td>
+                <td>@Html.DisplayFor(modelItem => item.GeneroId)</td>
+                <td>@Html.DisplayFor(modelItem => item.AutorId)</td>
+                <td>@Html.DisplayFor(modelItem => item.EditorialId)</td>
+                <td>
+                    @Html.ActionLink("Editar", "Edit", new { id = item.Id })
+                    @Html.ActionLink("Actualizar", "Create", new { /*id = item.Id*/ })
+                    @Html.ActionLink("Borrar", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

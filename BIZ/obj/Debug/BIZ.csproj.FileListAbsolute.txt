@@ -1,0 +1,10 @@
+C:\Users\angel\Desktop\VERS_02\WebSite\BIZ\bin\Debug\BIZ.dll
+C:\Users\angel\Desktop\VERS_02\WebSite\BIZ\bin\Debug\BIZ.pdb
+C:\Users\angel\Desktop\VERS_02\WebSite\BIZ\obj\Debug\BIZ.csproj.CoreCompileInputs.cache
+C:\Users\angel\Desktop\VERS_02\WebSite\BIZ\obj\Debug\BIZ.dll
+C:\Users\angel\Desktop\VERS_02\WebSite\BIZ\obj\Debug\BIZ.pdb
+C:\Users\angel\Desktop\VERS_03\WebSite\BIZ\bin\Debug\BIZ.dll
+C:\Users\angel\Desktop\VERS_03\WebSite\BIZ\bin\Debug\BIZ.pdb
+C:\Users\angel\Desktop\VERS_03\WebSite\BIZ\obj\Debug\BIZ.csproj.CoreCompileInputs.cache
+C:\Users\angel\Desktop\VERS_03\WebSite\BIZ\obj\Debug\BIZ.dll
+C:\Users\angel\Desktop\VERS_03\WebSite\BIZ\obj\Debug\BIZ.pdb

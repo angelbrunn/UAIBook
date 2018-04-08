@@ -1,0 +1,12 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+<div id="contenedor">
+    <form id="contact_form" action="" method="POST" enctype="multipart/form-data">
+        <input name="action" value="submit" type="hidden"> <font color="white">Your name:</font><br>
+        <input name="name" size="30" type="text"><br><font color="white">Your email:</font><br>
+        <input name="email" size="30" type="text"><br> <font color="white">Your menssage:</font><br>
+        <textarea name="message" rows="7" cols="30"></textarea><br>
+        <input id="btnSend" value="Send email" type="submit">
+    </form>
+</div>

@@ -1,0 +1,19 @@
+﻿@model BIZ.Libro
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    @using (Html.BeginForm("edit"))
+    {
+        <input type="hidden" name="id" value="@Model.Id">
+        <p>
+            <label for="titulo">Titulo:</label>
+            <input type="text" name="titulo" value="@Model.titulo" maxlength="100">
+        </p>
+        <p>
+            <input type="submit" value="Enviar" class="button">
+            @Html.ActionLink("Cancelar", "Admin", null, new { @class = "button" })
+        </p>
+    }
+</div>

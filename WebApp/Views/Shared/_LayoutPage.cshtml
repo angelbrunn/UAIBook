@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema UAIBook - LPPA 2018</title>
+    <link rel="stylesheet" href="~/Content/Site.css">
+
+</head>
+<body>
+    <div id="contenedor">
+        <header id="cabezera">
+            <div id="logo">
+                <img src="~/Content/image/logo.png">
+            </div>
+            <div id="buscador">
+                <br/>
+                <form action="#" method="post">
+                    <input name="busqueda" id="busqueda" type="text" />
+                    <button type="submit" id="btnBusqueda">Buscar</button>
+                </form>
+            </div>
+        </header>
+        <nav id="menu">
+            <ul id="menu_principal">
+                <li>@Html.ActionLink("UAIBook", "Index", "Home")</li>
+                <li>@Html.ActionLink("Detalle", "Details", "Home")</li>
+                <li>@Html.ActionLink("Quienes somos", "About", "Home")</li>
+                <li>@Html.ActionLink("Administrador", "Admin", "Admin")</li>
+                <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
+            </ul>
+        </nav>
+        <div class="body-content">
+            @RenderBody()
+        </div>
+        <hr/>
+        <footer id="idFooter">
+            <span class="enlaces">
+                TP ANGEL.G.PRADO BRUN  - LPPA - UAIBook
+            </span>
+            <span class="copyright">&copy; Copyright - @DateTime.Now.DayOfWeek @DateTime.Now.Day / @DateTime.Now.Month / @DateTime.Now.Year </span>
+        </footer>
+    </div>
+</body>
+</html>

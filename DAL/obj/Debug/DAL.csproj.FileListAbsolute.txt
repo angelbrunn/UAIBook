@@ -1,0 +1,16 @@
+C:\Users\angel\Desktop\VERS_02\WebSite\DAL\bin\Debug\DAL.dll
+C:\Users\angel\Desktop\VERS_02\WebSite\DAL\bin\Debug\DAL.pdb
+C:\Users\angel\Desktop\VERS_02\WebSite\DAL\bin\Debug\BIZ.dll
+C:\Users\angel\Desktop\VERS_02\WebSite\DAL\bin\Debug\BIZ.pdb
+C:\Users\angel\Desktop\VERS_02\WebSite\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\VERS_02\WebSite\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\angel\Desktop\VERS_02\WebSite\DAL\obj\Debug\DAL.dll
+C:\Users\angel\Desktop\VERS_02\WebSite\DAL\obj\Debug\DAL.pdb
+C:\Users\angel\Desktop\VERS_03\WebSite\DAL\bin\Debug\DAL.dll
+C:\Users\angel\Desktop\VERS_03\WebSite\DAL\bin\Debug\DAL.pdb
+C:\Users\angel\Desktop\VERS_03\WebSite\DAL\bin\Debug\BIZ.dll
+C:\Users\angel\Desktop\VERS_03\WebSite\DAL\bin\Debug\BIZ.pdb
+C:\Users\angel\Desktop\VERS_03\WebSite\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\VERS_03\WebSite\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\angel\Desktop\VERS_03\WebSite\DAL\obj\Debug\DAL.dll
+C:\Users\angel\Desktop\VERS_03\WebSite\DAL\obj\Debug\DAL.pdb
